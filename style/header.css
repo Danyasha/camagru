@@ -1,0 +1,86 @@
+
+body {
+  background-image:url(../img/paper.jpg); 
+  background-repeat:repeat;
+}
+
+.back > div
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+.main > div
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+.credits
+{
+  margin-left: 1%;
+}
+.back
+{
+    height: 1000px;
+    width: 80%;
+    background-color: #66BCDD;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+    
+}
+.main
+{
+  height: 95%;
+  width: 99%;
+
+}
+.header
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  height: 10%;
+  font-family: 'Courier New', Courier, monospace;
+  background-image:url(https://3djungle.ru/upload/resize_cache/iblock/5bb/400_400_1/5bb4976aa80aec392191a5318eff338a.jpg);
+  background-repeat:repeat;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 0px 0px 3px 3px;
+}
+.header > div
+{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 18%;
+  background-color: bisque;
+  border-radius: 24px 24px 24px 24px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+.logo > div
+{
+  image-rendering: crisp-edges;
+  height: 20px;
+  width: 20px;
+
+}
+.content
+{
+  margin-top: 5px;
+  height: 90%;
+  width: 95%;
+  background-image:url(https://3djungle.ru/upload/resize_cache/iblock/1f8/400_400_1/1f8f3e486d3f7c5bb2504b11128384e0.jpg);
+  background-repeat:repeat;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 3px 3px 3px 3px;
+}
+.footer
+{
+  font-style: italic;
+  font-family:Helvetica;
+  font-size: 0.9em;
+  color: #0C0E0D;
+}
